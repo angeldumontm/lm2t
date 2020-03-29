@@ -1,0 +1,249 @@
+body{
+	margin: 0;
+	font-size: 100%;
+	font-family: asap, Arial, sans
+}
+/*BARRA MENU*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+li {
+	float: left;
+	color: white;
+	margin-left: 150px;
+}
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li.dropdown {
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color:#e10339 ;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/*Primera parte de la página*/
+div.header{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 754px;
+}
+div.izquierda1{
+	background-color: black;
+	width: 60%;
+}
+div.derecha1{
+	background-color: black;
+	width: 40%;
+}
+img.imagenDerecha1{
+	margin-top: 100px;
+	margin-left: 50px;
+}
+h1.h1header{
+	color: white;
+	margin-left: 50px;
+	margin-top: 250px;
+}
+h3.h3header{
+	color: grey;
+	font-family: 'ptserif, Helvetica, Tahoma, Geneva, Arial, sans-serif';
+	margin-left: 50px;
+}
+p.p1header{
+	color: #e10339;
+	margin-left: 50px;
+}
+p.p1header:hover{
+	color: grey;
+}
+/*Segunda parte de la página*/
+div.row{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 660px;
+}
+div.izquierda2{
+	background-color: white;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 660px;
+}
+img.imagenIzquierda2{
+	position: absolute;
+	margin-top:96px;
+	margin-left:130px;
+}
+div.parteRoja{
+	background-color: #e10339;
+	width: 84%;
+	height: 660px;
+}
+div.parteBlanca{
+	text-align: left;
+	background-color: white;
+	width: 16%;
+	height: 660px:;
+}
+div.derecha2{
+	background-color: white;
+	width: 50%;
+}
+p.prow{
+	margin-top: 150px;
+}
+p.p1{
+	color:rgb(136, 136, 136);
+	font-family:asap, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	margin-bottom: 40px;
+	letter-spacing: 3.2px;
+	line-height: 1.35;
+	font-size: 16px;
+	
+}
+p.p2{
+	padding-right:400px; 
+	color: rgb(0,0,0);
+	font-family:asap, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	font-size:24px;
+	margin-bottom:40px;
+	line-height: 1.5;
+}
+p.p3{
+	font-size: 1.2rem;
+	color: #888;
+	font-family: 'ptserif, Helvetica, Tahoma, Geneva, Arial, sans-serif';
+	margin: 2.125rem 0;
+	font-weight:400;
+	font-size:19.2px;
+	line-height:28.8px;
+	padding-right:400px;
+}
+/*Tercera parte de la página*/
+h1.titulo3{
+	margin-left: 600px;
+	font-family:asap, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	font-size:32px;
+	font-weight:700;
+	letter-spacing:5px;
+	line-height:38.4px;
+	text-align: center;
+}
+h3.description{
+	margin-right: 300px;
+	margin-left: 300px;
+	margin-bottom: 50px;
+	font-family:asap, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	font-size:24px;
+	font-weight:500;
+	line-height:33.6px;
+}
+div.parte3{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 754px;
+	align-content: center;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+h3.izquierda3{
+	margin-left: 150px;
+	color:rgb(255, 255, 255);
+	font-family:asap, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	font-size:20px;
+	font-weight:500;
+	letter-spacing:4px;
+	line-height:28px;
+	text-align: right;
+	padding-right: 50px;
+}
+h3.derecha3{
+	text-align: left;
+	padding-left: 50px;
+	color:rgb(255, 255, 255); !important
+	font-family:asap, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	font-size:20px;
+	font-weight:500;
+	letter-spacing:4px;
+	line-height:28px;
+}
+p.textoIzquierda3{
+	color: #888;
+	font-family:"ptserif, Helvetica, Tahoma, Geneva, Arial, sans-serif";
+	font-size:20px;
+	font-weight:400;
+	line-height:30px;
+	margin-bottom:34px;
+	margin-top:10px;
+	text-align:right;
+	padding-right: 50px;
+}
+p.textoDerecha3{
+	color: #888;
+	font-family:"ptserif, Helvetica, Tahoma, Geneva, Arial, sans-serif";
+	font-size:20px;
+	font-weight:400;
+	line-height:30px;
+	margin-bottom:34px;
+	margin-top:10px;
+	text-align:left;
+	padding-left: 50px;
+}
+/*Cuarta parte de la página*/
+div.parte4{
+	background-color: #E8F6F7;
+}
+div.fondo4{
+	width: 100%;
+	height: 500px;
+	margin-left: 100px;
+	background-image:url(./Imágenes/bg.jpg);
+	background-repeat: no-repeat;
+	color: black;
+}
+/*Sexta parte de la página*/
+div.titulo6{
+	font-family:asap, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+}
+/*Séptima parte de la página*/
+div.parte7{
+	margin: 0;
+	padding: 0;
+	height: 1447.2px;
+}
+/*Octava parte de la página*/
